@@ -1,16 +1,44 @@
-## Hi there 👋
+<ChristFlex html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christians Hangout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/100" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="groups.html">Groups</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <a href="login.html">Login</a> | <a href="signup.html">Sign Up</a>
+        </div>
+    </header>
 
-<!--
-**Christflex/ChristFlex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <main>
+        <div id="news-feed">
+            <h1>Welcome to Christians Hangout</h1>
+            <div class="post-section">
+                <textarea placeholder="What's on your mind?"></textarea>
+                <button>Post</button>
+            </div>
+            <div id="feed">
+                <!-- Post feed will appear here -->
+            </div>
+        </div>
+    </main>
 
-Here are some ideas to get you started:
+    <footer>
+        <p>&copy; 2024 Christians Hangout. All Rights Reserved.</p>
+    </footer>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <script src="app.js"></script>
+</body>
+</html>
