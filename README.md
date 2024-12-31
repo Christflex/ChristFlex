@@ -42,3 +42,87 @@
     <script src="app.js"></script>
 </body>
 </html>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #2a5298;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#news-feed {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a5298;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
